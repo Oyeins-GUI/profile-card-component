@@ -39,12 +39,10 @@ body {
 
 .top {
   top: -60%;
-  /* bottom: 100%; */
   right: 60%;
 }
 
 .bottom {
-  /* top: 100; */
   bottom: -60%;
   left: 60%
 }
@@ -80,13 +78,13 @@ body {
 }
 
 .location {
-  margin-top: .5rem;
+  margin-top: .75rem;
   margin-bottom: 2rem;
 }
 
 hr {
   border: 1px solid var(--dark-gray-transparent);
-  margin-bottom: 2rem;
+  margin-bottom: 1.5rem;
 }
 
 .profile-stats {
