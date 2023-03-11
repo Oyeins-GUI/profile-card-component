@@ -20,6 +20,7 @@
 
 img {
   display: block;
+  width: 100%;
 }
 
 body {
@@ -49,7 +50,7 @@ body {
 
 .profile-card {
   background: white;
-  min-width: 300px;
+  max-width: 350px;
   border-radius: var(--radius);
   z-index: 10;
 }
@@ -63,6 +64,7 @@ body {
 }
 
 .profile-pic {
+  width: 100px;
   border-radius: 50%;
   border: 5px solid white;
   position: absolute;
@@ -73,7 +75,7 @@ body {
 }
 
 .profile-name {
-  margin-top: 70px;
+  margin-top: 60px;
   text-align: center;
 }
 
