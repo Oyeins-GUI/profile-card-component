@@ -39,19 +39,20 @@ body {
 }
 
 .top {
-  top: -60%;
-  right: 60%;
+  top: -120%;
+  right: 50%;
 }
 
 .bottom {
-  bottom: -60%;
-  left: 60%
+  bottom: -120%;
+  left: 50%
 }
 
 .profile-card {
   background: white;
   max-width: 350px;
   border-radius: var(--radius);
+  box-shadow: 5px 5px 15px 3px rgba(0, 0, 0, 0.1);
   z-index: 10;
 }
 
